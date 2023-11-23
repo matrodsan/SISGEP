@@ -1,0 +1,69 @@
+:root {
+  --bs-primary: #00509d;
+  --bs-primary-hover: #014b91;
+  --bs-primary-active: #0e5292;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--bs-primary-hover);
+  border-color: var(--bs-primary-hover);
+}
+
+.btn-primary:active {
+  background-color: var(--bs-primary-active) !important;
+  border-color: var(--bs-primary-active) !important;
+}
+
+.btn-outline-primary {
+  color: var(--bs-primary);
+  background-color: transparent;
+  border: 1px solid var(--bs-primary);
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: var(--bs-primary);
+  border: 1px solid var(--bs-primary);
+}
+
+.btn-outline-primary:active {
+  color: #fff !important;
+  background-color: var(--bs-primary-active) !important;
+  border: 1px solid var(--bs-primary-active) !important;
+}
+
+.login-icon {
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.rotate-vert-center {
+  -webkit-animation: rotate-vert-center 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: rotate-vert-center 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
