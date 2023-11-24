@@ -1,6 +1,6 @@
 <?php
 $titulo = "SISGEP | Login";
-require_once "./cabecalho.php";
+require_once "./includes/cabecalho.php";
 require_once "./classes/Alerta.php";
 session_start();
 session_unset();
