@@ -12,8 +12,8 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <link rel="shortcut icon" href="./static/img/icon.png" type="image/png">
-    
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/png">
+
     <title><?php echo isset($titulo) ? $titulo : "SISGEP"; ?></title>
 </head>
 

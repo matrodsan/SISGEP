@@ -50,5 +50,5 @@ session_unset();
 </div>
 
 <?php
-require_once("./rodape.php");
+require_once "./includes/rodape.php";
 ?>
